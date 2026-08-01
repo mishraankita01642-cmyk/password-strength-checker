@@ -11,7 +11,7 @@ if any(char.isupper() for char in password):
 if any(char.islower() for char in password):
   score += 1
 
-if any(char.isdidgit() for char in password):
+if any(char.isdigit() for char in password):
   score += 1
 
 if any(char in "!@#$%^&*"  for char in password):
